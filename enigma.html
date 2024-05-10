@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma1</title>
+      <link rel="stylesheet" href="style.css">
+      
+       <style>
+       
+body {
+            background-color: black;
+          
+        }
+       
+       p {
+       color:red;
+       
+       }
+      
+       .container {
+            text-align:center;
+       }
+
+       h1 {
+            text-align:center;
+            color:red;  
+            padding:10px; 
+            
+            background-color:black;
+            }
+            
+            #quizForm {
+            text-align: center;
+        }
+        #quizForm input[type="text"] {
+            margin-bottom: 10px;
+        }
+        #quizForm button {
+            margin-top: 10px;
+        }
+            button1 {
+                        background-color:red;
+                        color: white;
+            
+       </style>
+  
+       </head>
+       <body>
+        
+        <div class="container">
+           <h1>ENIGMA</h1>
+ 
+      </div>
+       
+      
+      
+      <div style="float: left; margin-right: 20px;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/B4MlJNKUTuI" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+
+   
+    <form id="quizForm">
+        <label for="answer">?</label><br>
+        <input type="text" id="answer" name="answer"><br>
+        <button1 type="button1" onclick="checkAnswer()">Verificar</button>
+    </form>
+    
+    <h2>Preste atenção no vídeo e nas dicas que ele oferece antes de responder</h2>
+        
+        <script>
+        function checkAnswer() {
+            var answer = document.getElementById("answer").value.toLowerCase();
+            if (answer === "35842") {
+                window.location.href = "https://chat.whatsapp.com/DNYW1bnM3Y6HKx3InUcBZj";
+            } else {
+                alert("Resposta incorreta. Tente novamente.");
+            }
+        }
+        
+    </script>
+        
+   
+   
+
+</body>
+</html>
